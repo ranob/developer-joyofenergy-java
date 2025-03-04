@@ -6,9 +6,10 @@ import java.util.Map;
 import java.util.Optional;
 import org.springframework.stereotype.Service;
 import uk.tw.energy.domain.ElectricityReading;
+import uk.tw.energy.interfaces.MeterReadingServiceInt;
 
 @Service
-public class MeterReadingService {
+public class MeterReadingService implements MeterReadingServiceInt{
 
     private final Map<String, List<ElectricityReading>> meterAssociatedReadings;
 

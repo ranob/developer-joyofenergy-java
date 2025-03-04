@@ -141,3 +141,36 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 # End of https://www.gitignore.io/api/osx,macos,gradle,windows,intellij
+.project
+.classpath
+.settings/org.eclipse.buildship.core.prefs
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.springframework.ide.eclipse.prefs
+bin/functionalTest/uk/tw/energy/EndpointTest.class
+bin/functionalTest/uk/tw/energy/EndpointTest$CompareAllResponse.class
+bin/main/uk/tw/energy/App.class
+bin/main/uk/tw/energy/SeedingApplicationDataConfiguration.class
+bin/main/uk/tw/energy/controller/CalculateCostController.class
+bin/main/uk/tw/energy/controller/MeterReadingController.class
+bin/main/uk/tw/energy/controller/PricePlanComparatorController.class
+bin/main/uk/tw/energy/domain/ElectricityReading.class
+bin/main/uk/tw/energy/domain/MeterReadings.class
+bin/main/uk/tw/energy/domain/PricePlan.class
+bin/main/uk/tw/energy/domain/PricePlan$PeakTimeMultiplier.class
+bin/main/uk/tw/energy/generator/ElectricityReadingsGenerator.class
+bin/main/uk/tw/energy/interfaces/CalculateCostServiceInt.class
+bin/main/uk/tw/energy/interfaces/MeterReadingServiceInt.class
+bin/main/uk/tw/energy/service/AccountService.class
+bin/main/uk/tw/energy/service/CalculateCostService.class
+bin/main/uk/tw/energy/service/MeterReadingService.class
+bin/main/uk/tw/energy/service/PricePlanService.class
+bin/test/uk/tw/energy/ConfigBeans.class
+bin/test/uk/tw/energy/builders/MeterReadingsBuilder.class
+bin/test/uk/tw/energy/controller/CalculateCostControllerTest.class
+bin/test/uk/tw/energy/controller/MeterReadingControllerTest.class
+bin/test/uk/tw/energy/controller/PricePlanComparatorControllerTest.class
+bin/test/uk/tw/energy/domain/PricePlanTest.class
+bin/test/uk/tw/energy/mocks/CalculateCostServiceMock.class
+bin/test/uk/tw/energy/service/AccountServiceTest.class
+bin/test/uk/tw/energy/service/CalculateCostServiceTest.class
+bin/test/uk/tw/energy/service/MeterReadingServiceTest.class
